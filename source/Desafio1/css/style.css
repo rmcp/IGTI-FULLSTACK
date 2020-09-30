@@ -1,13 +1,29 @@
-.conteudo {
-  padding: 20px;
-  background-color: gray;
-  opacity: 0.5;
+#principal {
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
-#resultado {
+#filter {
+  display: flex;
+}
+
+#users {
+  display: flex;
+}
+
+.content {
   padding: 20px;
-  background-color: rgb(255, 255, 255);
-  border: royalblue;
-  width: 100px;
-  height: 100px;
+  background-color: lightgrey;
+  border-color: grey;
+  margin: 20px;
+  flex-direction: row;
+}
+
+.input {
+  margin-right: 20px;
+}
+
+img {
+  border-radius: 20px;
+  margin-right: 5px;
 }
