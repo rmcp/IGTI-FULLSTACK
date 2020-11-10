@@ -1,23 +1,6 @@
 "use strict";
 
 import accountModel from "../models/accountModel.js";
-import mongoose from "mongoose";
-
-{
-  /*Conexao com o MongoDB*/
-  (async () => {
-    try {
-      await mongoose.connect(
-        "mongodb+srv://igtiBootcamp:vakPGci9mJ9sToN3@cluster0.usxoz.mongodb.net/bank?retryWrites=true&w=majority",
-        { useNewUrlParser: true, useUnifiedTopology: true }
-      );
-
-      console.log("Conectado no MongoDB");
-    } catch (error) {
-      console.log("erro ao conecat no banco de dados:" + error);
-    }
-  })();
-}
 
 const add = async (account) => {
   try {
