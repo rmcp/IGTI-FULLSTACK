@@ -1,0 +1,10 @@
+#
+PATCH http://localhost:3000/grade/updateNota HTTP/1.1
+content-type: application/json
+
+{
+    "id": 33,    
+    "value": 15
+}
+
+

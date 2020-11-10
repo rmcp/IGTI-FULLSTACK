@@ -1,0 +1,12 @@
+#
+POST http://localhost:3000/grade HTTP/1.1
+content-type: application/json
+
+{
+    "student": "Roberto Achar",
+    "subject": "03 - React",
+    "type": "Fórum",
+    "value": 10
+}
+
+

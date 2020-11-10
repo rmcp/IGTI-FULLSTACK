@@ -1,0 +1,8 @@
+PATCH http://localhost:3000/accounts/depositar HTTP/1.1
+content-type: application/json
+
+{
+    "agencyNumber": 10,
+    "accountNumber": 1018,    
+    "value": 500
+}

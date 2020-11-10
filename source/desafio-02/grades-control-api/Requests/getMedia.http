@@ -1,0 +1,7 @@
+GET http://localhost:3000/media HTTP/1.1
+content-type: application/json
+
+{    
+    "subject": "04 - MongoDB",
+    "type": "Trabalho Prático"
+}

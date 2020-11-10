@@ -1,0 +1,11 @@
+#
+PUT http://localhost:3000/accounts HTTP/1.1
+content-type: application/json
+
+{
+    "agencia": 10,
+    "conta": 1001,    
+    "valor": 10
+}
+
+

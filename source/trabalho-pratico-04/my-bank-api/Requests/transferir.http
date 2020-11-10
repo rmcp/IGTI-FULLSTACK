@@ -1,0 +1,8 @@
+POST http://localhost:3000/accounts/transferir HTTP/1.1
+content-type: application/json
+
+{
+    "originAccountNumber": 2214,
+    "destinyAccountNumber": 9119,    
+    "value": 650
+}

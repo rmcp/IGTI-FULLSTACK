@@ -1,0 +1,9 @@
+GET http://localhost:3000/topN HTTP/1.1
+content-type: application/json
+
+{    
+    "subject": "03 - React",
+    "type": "Trabalho Prático",
+    "n": 10
+}
+

@@ -1,0 +1,9 @@
+#
+PATCH http://localhost:3000/accounts/sacar HTTP/1.1
+content-type: application/json
+
+{
+    "agencyNumber": 33,
+    "accountNumber": 9110,    
+    "value": 235
+}

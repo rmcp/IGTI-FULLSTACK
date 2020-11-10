@@ -1,0 +1,13 @@
+#
+PUT http://localhost:3000/grade HTTP/1.1
+content-type: application/json
+
+{
+    "id": 51,
+    "student": "teste atualizacao 2",
+    "subject": "teste atualizacao 2",
+    "type": "teste atualizacao 2",
+    "value": 20
+}
+
+

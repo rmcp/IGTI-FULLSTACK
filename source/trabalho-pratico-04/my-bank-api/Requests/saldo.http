@@ -1,0 +1,8 @@
+#
+GET http://localhost:3000/saldos/ HTTP/1.1
+content-type: application/json
+
+{
+    "agencyNumber": 47,
+    "accountNumber": 2213   
+}
