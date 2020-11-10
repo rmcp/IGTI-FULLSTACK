@@ -8,21 +8,17 @@ const router = express.Router();
 
 router.get("/", async (req, res, next) => {
   try {
-    try {
-      const { agencyNumber, accountNumber } = req.body;
+    const { agencyNumber, accountNumber } = req.body;
 
-      const accountDb = await accountsController.getBalance(
-        agencyNumber,
-        accountNumber
-      );
+    const accountDb = await accountsController.getBalance(
+      agencyNumber,
+      accountNumber
+    );
 
-      if (!!accountDb) {
-        res.send(JSON.stringify(accountDb.balance));
-      } else {
-        res.send(404, "Conta nao encontrada");
-      }
-    } catch (err) {
-      next(err);
+    if (!!accountDb) {
+      res.send(JSON.stringify(accountDb.balance));
+    } else {
+      res.send(404, "Conta nao encontrada");
     }
   } catch (err) {
     next(err);
